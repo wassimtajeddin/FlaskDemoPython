@@ -11,7 +11,7 @@ def user(name):
 
 @app.route("/contact")
 def contact():
-    return "Du kan kontakta mig på 0736842961"
+    return render_template("contact.html")
 
 @app.route ("/about")
 def about():
