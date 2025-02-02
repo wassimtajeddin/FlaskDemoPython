@@ -6,5 +6,9 @@ app = Flask(__name__)
 def home():
     return "Hello world!"
 
-if __name__ == " __main__":
-    app.run(debug=True) 
+@app.route("/contact")
+def contact():
+    return "Du kan kontakta mig på 0736842961"
+
+if __name__ == "__main__":
+    app.run(debug=True)
