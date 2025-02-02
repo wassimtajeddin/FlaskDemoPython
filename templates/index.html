@@ -3,14 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wassims Page</title>
+    <meta name="description" content="Welcome to Wassim's page - Java Developer">
+    <title>Wassim's Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            color: #333;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        button {
+            background-color: blue;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: darkblue;
+        }
+        input {
+            padding: 10px;
+            margin-top: 10px;
+            width: 100%;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to Wassims page</h1>
-    <h2>Java Developer</h2>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus magnam, quibusdam obcaecati non ea enim iusto eos ex, consequatur culpa aspernatur veritatis qui distinctio similique doloremque voluptas, adipisci esse rerum.</p>
-    <br>
-    <button>Click me</button>
-    <input type="text" name="empty" id="empty">
+
+    <div class="container">
+        <h1>Welcome to Wassim's Page</h1>
+        <h2>Java Developer</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus magnam, quibusdam obcaecati non ea enim iusto eos ex, consequatur culpa aspernatur veritatis qui distinctio similique doloremque voluptas, adipisci esse rerum.</p>
+        
+        <input type="text" id="inputField" placeholder="Type something...">
+        <button id="clickButton">Click me</button>
+    </div>
 </body>
 </html>
