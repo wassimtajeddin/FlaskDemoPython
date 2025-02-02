@@ -56,5 +56,13 @@
         <input type="text" id="inputField" placeholder="Type something...">
         <button id="clickButton">Click me</button>
     </div>
+
+    <script>
+        document.getElementById("clickButton").addEventListener("click", function() {
+            let inputText = document.getElementById("inputField").value;
+            alert(inputText ? "You typed: " + inputText : "Hello, Wassim!");
+        });
+    </script>
+
 </body>
 </html>
